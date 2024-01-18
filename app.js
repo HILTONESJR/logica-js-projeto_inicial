@@ -1,5 +1,5 @@
 alert("Bem vindo ao jogo do numero secreto!"); // Exibe uma mensagem de boas vindas a pagina!
-let numeroSecreto = 5; // Declara uma varariavel chamada numero secreto e atribui a ela um valor"29"
+let numeroSecreto = parseInt(Math.random() * 10 + 100) // Declara uma varariavel chamada numero secreto e atribui a ela um valor de 0 a 100 aleatoriamente.
 let chute;
 let tentativas = 1;
 
@@ -20,8 +20,3 @@ if (chute == numeroSecreto) {
 }
 let palavraTentativa = tentativas > 1 ? 'tentativas':'tentativa';
 alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}.`);
-// if (tentativas > 1) {
-//    alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`);
-//} else {
-//    alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativa.`);
-//}
