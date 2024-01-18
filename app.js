@@ -1,5 +1,5 @@
 alert("Bem vindo ao jogo do numero secreto!"); // Exibe uma mensagem de boas vindas a pagina!
-let numeroSecreto = parseInt(Math.random() * 10 + 100) // Declara uma varariavel chamada numero secreto e atribui a ela um valor de 0 a 100 aleatoriamente.
+let numeroSecreto = parseInt(Math.random() * 100 + 1) // Declara uma varariavel chamada numero secreto e atribui a ela um valor de 0 a 100 aleatoriamente.
 let chute;
 let tentativas = 1;
 
